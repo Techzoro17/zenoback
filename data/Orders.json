@@ -1,0 +1,70 @@
+[
+  {
+    "order_id": "1cb5bc9b-f942-4c37-8960-78f1fe00e21d",
+    "user_id": "746a7444-84a1-4f17-98fd-99bc9cb9dd02",
+    "resid": 202,
+    "date": "7 Oct 2024",
+    "amount": 360,
+    "address": "Abdul Askar,Manivilan 6 th street,8056328394,",
+    "order_list": [
+      {
+        "id": 20201,
+        "name": "Chicken Rice",
+        "price": 120,
+        "amount": 360,
+        "quan": 3
+      }
+    ],
+    "status": "Out for delivary"
+  },
+  {
+    "order_id": "562cdeac-1bae-430f-b154-b5fe98d3e2cf",
+    "user_id": "09be21d6-0bac-40ee-bdee-8ba85c3048b5",
+    "resid": 201,
+    "date": "9 Oct 2024",
+    "amount": 450,
+    "address": "Abdul Askar,Manivilan 6 th street,8056328394,",
+    "order_list": [
+      {
+        "id": 20101,
+        "name": "Chicken Biryani",
+        "price": 120,
+        "amount": 120,
+        "quan": 1
+      },
+      {
+        "id": 20102,
+        "name": "Chicken Curry",
+        "price": 180,
+        "amount": 180,
+        "quan": 1
+      },
+      {
+        "id": 20104,
+        "name": "Chicken Noodles",
+        "price": 150,
+        "amount": 150,
+        "quan": 1
+      }
+    ],
+    "status": "Order Taken"
+  },
+  {
+    "order_id": "d4d8d709-237f-4830-9aa8-f1a31b18effb",
+    "user_id": "09be21d6-0bac-40ee-bdee-8ba85c3048b5",
+    "resid": 201,
+    "date": "10 Oct 2024",
+    "amount": 240,
+    "address": "Abdul Askar,Manivilan 6 th street,8056328394,",
+    "order_list": [
+      {
+        "id": 20101,
+        "name": "Chicken Biryani",
+        "price": 120,
+        "amount": 240,
+        "quan": 2
+      }
+    ],
+    "status": "Order Taken"
+  }
+]

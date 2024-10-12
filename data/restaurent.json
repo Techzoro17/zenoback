@@ -1,0 +1,81 @@
+ [
+    {
+        "id":201,
+        "name":"Koodooo",
+        "timing":"9:00 AM - 9:00 PM",
+        "star":"3",
+        "couisine":"Chineese",
+        "List":[
+            {
+                "id":20101,
+                "name":"Chicken Biryani",
+                "price":120,
+                "amount":120,
+                "quan":1
+            },{
+                "id":20102,
+                "name":"Chicken Curry",
+                "price":180,
+                "amount":180,
+                "quan":1
+            },{
+                "id":20103,
+                "name":"Grill Chicken",
+                "price":420,
+                "amount":420,
+                "quan":1
+            },{
+                "id":20104,
+                "name":"Chicken Noodles",
+                "price":150,
+                "amount":150,
+                "quan":1
+            }
+        ]
+    },{
+        "id":202,
+        "name":"Grill Inn",
+        "timing":"9:00 AM - 9:00 PM",
+        "star":"4.5",
+        "couisine":"Multicuoisine",
+        "List":[
+            {
+                "id":20201,
+                "name":"Chicken Rice",
+                "price":120,
+                "amount":120,
+                "quan":1
+            },{
+                "id":20202,
+                "name":"Chettinad Chicken Curry",
+                "price":180,
+                "amount":180,
+                "quan":1
+            },{
+                "id":20203,
+                "name":"Grill Chicken",
+                "price":400,
+                "amount":400,
+                "quan":1
+            },{
+                "id":20204,
+                "name":"Chicken Noodles",
+                "price":150,
+                "amount":150,
+                "quan":1
+            },{
+                "id":20205,
+                "name":"Panner Masala",
+                "price":180,
+                "amount":180,
+                "quan":1
+            },{
+                "id":20206,
+                "name":"Naan or Rooti",
+                "price":40,
+                "amount":40,
+                "quan":1
+            }
+        ]
+    }
+ ]
