@@ -13,7 +13,10 @@ require('dotenv').config();
 const PORT = 3500;
 
 //Middle Ware 
-app.use(cors());
+app.use(cors({
+    origin: 'https://zenofront.vercel.app', // Allow your frontend's URL
+    credentials: true
+}));
 app.use(express.json());
 
 //Api Routes
