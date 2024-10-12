@@ -10,7 +10,7 @@ const orders = require('./data/Orders.json');
 require('dotenv').config();
 
 
-const PORT = 3500;
+const PORT = process.env.PORT||3500;
 
 //Middle Ware 
 app.use(cors({
@@ -162,6 +162,6 @@ app.post('/order',async(req,res)=>{
 
 
 
-app.listen(process.env.PORT||PORT,()=>{
+app.listen(PORT,()=>{
     console.log(`Your App is runnning on port: ${PORT} `);
 })
