@@ -14,7 +14,7 @@ const PORT = process.env.PORT||3500;
 
 //Middle Ware 
 app.use(cors({
-    origin: 'https://your-frontend-url.com', // Replace with your actual frontend URL
+    origin: 'https://zenofront.onrender.com', // Replace with your actual frontend URL
 }));
 app.use(express.json());
 
