@@ -159,6 +159,6 @@ app.post('/order',async(req,res)=>{
 
 
 
-app.listen(PORT,()=>{
+app.listen(process.env.PORT||PORT,()=>{
     console.log(`Your App is runnning on port: ${PORT} `);
 })
