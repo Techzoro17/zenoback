@@ -13,9 +13,7 @@ require('dotenv').config();
 const PORT = process.env.PORT||3500;
 
 //Middle Ware 
-app.use(cors({
-    origin: 'https://zenofront.onrender.com', // Replace with your actual frontend URL
-}));
+app.use(cors());
 app.use(express.json());
 
 //Api Routes
